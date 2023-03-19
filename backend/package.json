@@ -13,9 +13,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/veerreshr/team-maker"
+        "url": "git+https://github.com/pradeep8577"
     },
-    "homepage": "https://github.com/veerreshr/team-maker#readme",
+    "homepage": "https://github.com/pradeep8577",
     "devDependencies": {
         "concurrently": "^5.3.0",
         "nodemon": "^2.0.6"
