@@ -67,7 +67,7 @@ npm start
 ----------------------------------------
 Go to the frontend directory
 ```bash
-cd backend
+cd frontend
 ```
 
 Install dependencies
