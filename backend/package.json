@@ -1,0 +1,43 @@
+{
+    "name": "team-maker",
+    "version": "1.0.0",
+    "description": "A Platform to find and connect with team members for your next big event",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon backend/server",
+        "server": "nodemon backend/server",
+        "client": "npm start --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/veerreshr/team-maker"
+    },
+    "homepage": "https://github.com/veerreshr/team-maker#readme",
+    "devDependencies": {
+        "concurrently": "^5.3.0",
+        "nodemon": "^2.0.6"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.1075.0",
+        "axios": "^0.21.4",
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-async-handler": "^1.1.4",
+        "express-rate-limit": "^5.3.0",
+        "express-validator": "^6.13.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.11.8",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.4",
+        "multer-s3": "^2.10.0",
+        "socket.io": "^4.1.2"
+    },
+    "engines": {
+        "node": "14.x",
+        "npm": "6.x"
+      }
+}
