@@ -76,7 +76,7 @@ Install dependencies
 yarn install
 ````
 
-Start the server
+Start the app
 
 ```bash
 yarn start
